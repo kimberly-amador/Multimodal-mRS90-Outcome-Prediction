@@ -1,5 +1,5 @@
-# Functional Stroke Outcome Prediction from 4D CTP and Clinical Metadata
-[MedIA 2024 Submission] Official implementation for the paper "A cross-attention-based deep learning approach for predicting functional stroke outcomes using 4D CTP imaging and clinical metadata"
+# A cross-attention-based deep learning approach for predicting functional stroke outcomes using 4D CTP imaging and clinical metadata
+[MedIA 2024 Submission] Official implementation for the paper with reference number MEDIA-D-24-00425.
 
 </div>
 
