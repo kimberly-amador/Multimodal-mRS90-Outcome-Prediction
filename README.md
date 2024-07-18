@@ -25,8 +25,8 @@ Recommended environment:
 To install the dependencies, run:
 
 ```shell
-$ git clone https://github.com/kimberly-amador/Spatiotemporal-CNN-Transformer
-$ cd Spatiotemporal-CNN-Transformer
+$ git clone https://github.com/kimberly-amador/Multimodal-Stroke-Outcome-Prediction
+$ cd Multimodal-Stroke-Outcome-Prediction
 $ pip install -r requirements.txt
 ```
 
@@ -43,13 +43,13 @@ partition = {
         ...
     },
     'val': {
-        'patientID1',
-        'patientID2',
+        'patientID3',
+        'patientID4',
         ...
     }
     'test': {
-        'patientID1',
-        'patientID2',
+        'patientID5',
+        'patientID6',
         ...
     }
 }
