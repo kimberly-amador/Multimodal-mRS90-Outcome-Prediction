@@ -70,3 +70,4 @@ If you find this code and paper useful for your research, please cite the [paper
 ## Acknowledgement
 Part of the code is adapted from open-source codebase:
 * Transformer: https://github.com/keras-team/keras-io/blob/master/examples/vision/video_transformers.py
+* LR scheduler: https://github.com/tensorflow/tensorflow/blob/master/tensorflow/python/keras/optimizer_v2/learning_rate_schedule.py
