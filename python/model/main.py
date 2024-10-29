@@ -104,7 +104,7 @@ imaging_encoded = Concatenate(axis=1)(outputs)
 # ----- (A.2) CLINICAL ENCODER -----
 # Import metadata and create embeddings
 # Embed categorical data with no ordinal relationship, using a fixed dim for all features
-embed_dim = cfg.transformer_params['projection_dim']
+embed_dim = imaging_encoded.shape[-1]
 C_inputs = []
 C_embedding_outputs = []
 for i in range(len(cfg.categorical_features['names'])):
